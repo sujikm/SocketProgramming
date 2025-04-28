@@ -100,4 +100,18 @@ It allows real-time text-based communication between the client and server using
 ```bash
    java ie.atu.sw.ChatClientConfigFile
  ```
-
+# ❔ Questions & Answers
+## 1. How does the client know what address to find the server at?
+  - Initially hardcoded as:
+```bash
+   hostname = "localhost";
+   int port = 13;
+ ```
+ -  Improved with:
+    - Command-line arguments
+    - Configuration files
+## 2. What happens if the client can’t reach the server when starting?
+   - It throws:
+      - UnknownHostException
+      - IOException
+   - User is informed with an error message.
