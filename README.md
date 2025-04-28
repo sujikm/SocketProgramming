@@ -59,3 +59,8 @@ It allows real-time text-based communication between the client and server using
    ```bash
    cd NetworkProject/src/ie/atu/sw
    javac ChatServer.java ChatClient.java
+3. **Run the server: Open the terminal window**
+   ```bash
+   cd NetworkProject/src
+   java ie.atu.sw.ChatServer
+
