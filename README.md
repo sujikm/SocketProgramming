@@ -115,3 +115,13 @@ It allows real-time text-based communication between the client and server using
       - UnknownHostException
       - IOException
    - User is informed with an error message.
+## 3. What happens if the connection is lost during the chat session?
+   - On reading from or writing to a dead socket, IOException is thrown.
+   - Client catches the exception and exits the chat gracefully.
+
+Example
+```bash
+catch (IOException ex) {
+    System.err.println("Error during chat session: " + ex.getMessage());
+    System.out.println("Connection lost. Exiting chat.");
+}
