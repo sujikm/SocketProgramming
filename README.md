@@ -76,3 +76,14 @@ It allows real-time text-based communication between the client and server using
    - The **server** receives and responds back to the client.
    - To **exit the chat**, the client types `\q` and presses Enter 
 
+## 🛡️ Error Handling
+   - UnknownHostException: When the client can't resolve the server's address.
+   - IOException: When network issues occur (server down, disconnection).
+   - If connection is lost during communication, the client gracefully exits and informs the user.
+     
+## 📡 Running on Different Machines
+   - Find the IP address of the server machine.
+   - Replace "localhost" in the client code with the server IP address.
+
+
+
