@@ -68,6 +68,11 @@ It allows real-time text-based communication between the client and server using
 4.  **Run the client: Open a new terminal window**
    ```bash
     cd NetworkProject/src
-   java ie.atu.sw.ChatClient
+    java ie.atu.sw.ChatClient
 
+5. ## 🔄 Interaction Between Client and Server
+
+- The **client** sends messages to the **server**.
+- The **server** receives and responds back to the client.
+- To **exit the chat**, the client types `\q` and presses Enter.
 
