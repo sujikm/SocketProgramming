@@ -70,7 +70,7 @@ It allows real-time text-based communication between the client and server using
     cd NetworkProject/src
     java ie.atu.sw.ChatClient
 
-5. ## 🔄 Interaction Between Client and Server
+5. 🔄 Interaction Between Client and Server
 
 - The **client** sends messages to the **server**.
 - The **server** receives and responds back to the client.
