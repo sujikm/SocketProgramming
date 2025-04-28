@@ -125,3 +125,7 @@ catch (IOException ex) {
     System.err.println("Error during chat session: " + ex.getMessage());
     System.out.println("Connection lost. Exiting chat.");
 }
+## 📚 References
+  - Java Socket Programming Official Documentation
+  - Oracle Java IO Streams Documentation
+  - ATU Virtual Learning Platform Resources
