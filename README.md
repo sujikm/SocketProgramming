@@ -63,4 +63,10 @@ It allows real-time text-based communication between the client and server using
    ```bash
    cd NetworkProject/src
    java ie.atu.sw.ChatServer
+  **The server will listen on port 13.**
+4.  **Run the client: Open a new terminal window**
+   ```bash
+    cd NetworkProject/src
+   java ie.atu.sw.ChatClient
+
 
