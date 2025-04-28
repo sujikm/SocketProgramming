@@ -85,5 +85,19 @@ It allows real-time text-based communication between the client and server using
    - Find the IP address of the server machine.
    - Replace "localhost" in the client code with the server IP address.
 
+## ➕ Additional Features
+1. Dynamic Address and Port via Command Line
+ - Instead of hardcoding the server address and port:
+    - ChatClientCommandLine.java allows the client to accept address and port as command-line arguments.
 
+```bash
+  java ie.atu.sw.ChatClientCommandLine localhost 13
+```
+2 Configuration File Based Connection
+  -  ChatClientConfigFile.java reads server IP and port from a config.properties file.
+  -  Easier to modify without changing source code.
+
+```bash
+   java ie.atu.sw.ChatClientConfigFile
+ ```
 
